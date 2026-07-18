@@ -1,0 +1,13 @@
+body{
+    background-color: hsl(0, 0%, 94%);
+}
+h1{
+    font-size: 54px;
+    color: purple;
+}
+p{
+ font-size: 34px;
+}
+.parent{
+    font-size: 10px;
+}

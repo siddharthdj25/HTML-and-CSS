@@ -1,0 +1,33 @@
+h1{
+    color: rgb(42, 165, 77);
+
+}
+#btn{
+    background-color: rgb(42, 165, 165);
+    color: aliceblue;
+    padding: 1rem;
+    border-color: aliceblue;
+    border-radius: 1rem;
+
+    &:hover{
+ background-color:rgb(255, 255, 0);
+     color: aliceblue;
+
+    }
+}
+#btn:hover{
+     background-color:rgb(255, 255, 0);
+     color: aliceblue;
+}
+.para{
+    color: rgba(0, 200, 255, 0.5);
+}
+body{
+    background-color: hsl(0, 0%, 94%);
+    background-image: url("https://wallpapersok.com/images/high/minimalist-hindu-god-ganesh-71ki3vvfo4jotkty.webp");
+    background-repeat: no-repeat;
+    background-size: 100%  400%;
+    width: 100vh;
+
+    
+}

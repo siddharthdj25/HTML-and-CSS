@@ -67,7 +67,7 @@ img {
   background-color: #fff;
   display: inline-block;
   padding: 10px 32px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   text-decoration: none;
   border-radius: 5px;
   font-size: 24px;

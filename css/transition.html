@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        
+        background-color: #2b3033;
+      }
+      .container{
+        width: 100px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        padding: 50px;
+       
+      }
+      .box{
+        width: 80px;
+        aspect-ratio: 1;
+        background-color: aliceblue;
+           border-radius: 50%;
+           background-color: blueviolet;
+           box-shadow: 0 0 0 15px rebeccapurple;
+            transition: all 5s;
+            
+     
+      }
+      .box:nth-child(1):hover{
+        transition-timing-function: ease;
+        translate:100vw;
+      }
+      .box:nth-child(2):hover{
+        transition-timing-function: ease-in;
+        translate:100vw;
+      }
+      .box:nth-child(3):hover{
+        transition-timing-function: ease-out;
+        translate:100vw;
+      }
+      .box:nth-child(4):hover{
+        transition-timing-function: ease-in-out;
+        translate:100vw;
+      }
+      .box:nth-child(5):hover{
+        transition-timing-function: ease;
+        translate: right;
+      }
+
+     
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div classs="box"></div>
+    </div>
+  </body>
+</html>
